@@ -1,0 +1,41 @@
+export const users = [
+  {
+    id: 1,
+    username: "_NebojsaMarkovic",
+    firstName: "Nebojsa",
+    lastName: "Markovic",
+    email: "nebojsamarkovic@mail.com",
+    isAdmin: true,
+    twoots: [
+      { id: 1, content: "Twotter is Amazing!" },
+      { id: 2, content: "Don't forget to subscribe!" },
+    ],
+  },
+  {
+    id: 2,
+    username: "johnDoe",
+    firstName: "John",
+    lastName: "Doe",
+    email: null,
+    isAdmin: false,
+    twoots: [],
+  },
+  {
+    id: 3,
+    username: "_JennyD",
+    firstName: "Jenny",
+    lastName: "Doe",
+    email: null,
+    isAdmin: false,
+    twoots: [],
+  },
+  {
+    id: 4,
+    username: "markluten",
+    firstName: "Mark",
+    lastName: "Luten",
+    email: null,
+    isAdmin: false,
+    twoots: [],
+  },
+];
